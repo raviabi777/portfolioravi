@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi-Portfolio web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(1, 1, 29);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(12, 12, 43);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white
+        }
+
+        nav ul li a:hover {
+            color: rgb(84, 84, 224);
+            font-size: 1.02rem;
+        }
+
+        #element {
+            color: rgb(84, 84, 224);
+            ;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97F1;
+            height: 1.2px;
+            margin: 40px 84px;
+
+        }
+
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 130px 0;
+            align-items: center;
+
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 2.75rem;
+        }
+
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #0b0b43;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(155, 88, 218);
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 95px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 20px;
+            position: relative;
+            top: -25px;
+            left: -8px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 78px;
+            width: 152px;
+            left: -55px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 84px;
+            left: -40px;
+            width: 141px;
+            color: grey;
+            font-size: 15px;
+        }
+
+        .vertical-des {
+            position: relative;
+            top: 84px;
+            left: -58px;
+            width: 141px;
+            color: grey;
+            font-size: 15px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 21px 149px;
+            justify-content: space-between;
+
+        }
+
+        .footer ul {
+            list-style: none;
+
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+
+        footer .text-center {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Ravi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Ravikant</span>
+                <div>and i am a passionate</div>
+                <span id="element"></span>
+
+                <div class="buttons">
+                    <a href="Resume_Ravikant_Prasad.pdf"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/raviabi777"><button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+
+
+
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have learned so far</span>
+            <h1>Learning Experiance</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">
+                        Python Programming
+                    </div>
+                    <div class="vertical-desc">
+                        Basics of Python, Turtle Graphics
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="C logo.png" alt="">
+                    <div class="vertical-title">
+                        C Programming
+                    </div>
+                    <div class="vertical-desc">
+                        Basics in C
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="linux.png" alt="">
+                    <div class="vertical-title">
+                        Operating System
+                    </div>
+                    <div class="vertical-desc">
+                        Linux OS
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tensorflow.png" alt="">
+                    <div class="vertical-title">
+                        Tensorflow
+                    </div>
+                    <div class="vertical-des">
+                        Project on ANPR
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="htm.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Front-End Development
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                Ravi's Portfolio
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+            </div>
+            <div class="footer-Third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+
+            </div>
+            <div class="footer-Fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact me</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="text-center">
+            Copyright &#169; ravi'sportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
